@@ -4,11 +4,22 @@ date: 2019-09-05T16:43:14+05:30
 draft: false
 ---
 
+Todo list
+
+- [ ] What is VideoResnet describe
+- [ ] brief about Resnet and skip connections
+- [ ] Sample videos and data exploration
+
 ## What is Video Resnet?
 
 __TODO: Write this__
 
 18 layer deep R(2+1)D (VideoResnet) network as in https://arxiv.org/abs/1711.11248
+
+<!--more-->
+
+> **Disclaimer**: In most of this post I am using the paper author's own words to describe what is what. This is done becuase, I felt my words won't be just to describe what is what. And my purpose of writing this post is to put it all together for myself and others in a way that is easier for me to understand. And probably some of you might find it interesting as well. 
+
 
 *Abstract:*
 
@@ -46,7 +57,6 @@ Results are reported for ResNets of 18 layers (left) and 34 layers (right). It c
 
 
 R(2+1)D gives lower testing error than R3D but the interesting message in this plot is that R(2+1)D yields also lower training error. The reduction in training error for R(2+1)D compared to R3D is particularly accentuated for the architecture having 34 layers. This suggests that the spatiotemporal decomposition of R(2+1)D renders the optimization easier compared to R3D, especially as depth is increased.
-
 
 
 ### Code
