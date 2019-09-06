@@ -4,7 +4,7 @@ date: 2019-09-06T13:52:50+05:30
 draft: false
 ---
 
-I think I chose the name "Infinite Study" for the blog site. And I was so certain about the name at the time. But now, I am confused about the name? My area of interest is deep learning and I have chosed infinite study. Did I made a mistake of me chosing **"study"** instead of **"learn"**. Ok let's go back to the meaning of these words and see.
+I think I chose the name "Infinite Study" for the blog site. And I was so certain about the name at the time. But now, I am confused about the name? My area of interest is deep learning and I have chosen infinite study. Did I made a mistake of choosing **"study"** instead of **"learn"**? Ok let's go back to the meaning of these words and see.
 
 <!--more-->
 
@@ -38,3 +38,4 @@ When you learn something, you make it part of the things you know. When you know
 
 Learning is gaining knowledge by studying, and studying is done to learn things.
 
+**Relieved now!**

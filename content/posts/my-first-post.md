@@ -6,7 +6,7 @@ draft: false
 
 This is supposed to be my first blog post. The truth is, this is my second blog post. I was wondering what I will write down in my first blog post other than about the "Video Resnet" which I already had in mind before starting to setup this site.
 
-> **This post is for you,** If you like this blog site and want to setup one for you just like this one. You are looking for a static site generator. And if you are willing to write your blog posts in `markdown` format (other format are suppoted by this setup like `html` and so but I won't discuss all that in this post). And bit of ~~expertise~~ familiarity with `git` and `github`. And willing to get your hands dirty in the command line. And if you love terminals. I ❤️ terminal windows!
+> **This post is for you,** If you like this blog site and want to setup one for you just like this one. You are looking for a static site generator. And if you are willing to write your blog posts in `markdown` format (other format are supported by this setup like `html` and so but I won't discuss all that in this post). And bit of ~~expertise~~ familiarity with `git` and `github`. And willing to get your hands dirty in the command line. And if you love terminals. I ❤️ terminal windows!
 
 <!--more-->
 
@@ -30,7 +30,7 @@ I have the following things to be satisfied for any setup that I choose.
 - [ ] Theming ability. And availability of free to use themes.
 - [ ] Customizability of themes without a lot of complexity.
 
-When the inception of the blog site occured in my mind. I had the github.io url of my blog site in my mind (https://aslamplr.github.io). The next thing I was thinking was `Jekyll`. I am not comfortable with Ruby on rails. But I am good with ReactJS. Ideal choice for those who love react is `Gatsby`. I wasn't sure which one I should choose. I was predetermined in some abstract sort of way, that I should be using `Jekyll` mostly because of the internet. Mostly everyone who uses static blogging sites claim to use `Jekyll` and I wasn't sure what is the way forward. 
+When the inception of the blog site occurred in my mind. I had the github.io url of my blog site in my mind (https://aslamplr.github.io). The next thing I was thinking was `Jekyll`. I am not comfortable with Ruby on rails. But I am good with ReactJS. Ideal choice for those who love react is `Gatsby`. I wasn't sure which one I should choose. I was predetermined in some abstract sort of way, that I should be using `Jekyll` mostly because of the internet. Mostly everyone who uses static blogging sites claim to use `Jekyll` and I wasn't sure what is the way forward. 
 
 I searched for "Jekyll vs ..." google came to my help. Auto complete my query "Jekyll vs hugo vs gatsby". Now that is the moment I knew there exists `hugo`. And from a short read of this article [Static Site Generators Overview: Gatsby vs. Hugo vs. Jekyll](https://dzone.com/articles/static-site-generators-overview-gatsby-vs-hugo-vs). I knew that I should be using `hugo` for my blog site, no matter what. It ticks mostly every criteria that I have above.
 
@@ -41,7 +41,7 @@ All CHECK!
     `hugo` is written in `golang` but you do not required to know anything about `golang` or setup the toolchain yourself.
 - [x] Simple deployment steps.
 - [x] Theming ability. And availability of free to use themes.
-    There are infact a lot of themes available
+    There are in fact a lot of themes available
 - [x] Customizability of themes without a lot of complexity.
 
 Now what?
@@ -77,7 +77,7 @@ This is a confusing task, to select a theme. I want something minimal and someth
 
 Anyway I am going to write about deep learning, coding, web and stuff. Or at least that is what I think I am going to post in this blog at this point in time. So the theme should be good enough for the purpose thats it.
 
-I shorlisted few of the themes which I like.
+I shortlisted few of the themes which I like.
 
 - Academic
 - Paperback
@@ -212,7 +212,7 @@ I don't have a discuss plugin or comments feature as of now. I will be working o
 
 My email - aslamplr(at)gmail(dot)com (don't spam bomb me please!)
 
-Thank you for reading my post! I appreaciate you spend your time reading my post. Please email me in case you followed my post and are stuck with your setup or anything related to this. I am happy to help you out or point you to the right direction.
+Thank you for reading my post! I appreciate you spend your time reading my post. Please email me in case you followed my post and are stuck with your setup or anything related to this. I am happy to help you out or point you to the right direction.
 
 Thank you!
 
