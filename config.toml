@@ -9,7 +9,7 @@ theme = "hyde-hyde"
 [params]
     author = "Aslam Ahammed"
     title = "Infinite Study"
-    description = "My deep dive into deep learning and AI"
+    description = "My (deep) dive into Deep learning, Re-inforcement learning, and AI, and other stuffs!"
     authorimage = "/img/logo.png"
     dateformat = "Monday, Jan 2, 2006"
 
