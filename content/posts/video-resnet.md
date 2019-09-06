@@ -1,14 +1,8 @@
 ---
 title: "Video Resnet"
 date: 2019-09-05T16:43:14+05:30
-draft: false
+draft: true
 ---
-
-Todo list
-
-- [ ] What is VideoResnet describe
-- [ ] brief about Resnet and skip connections
-- [ ] Sample videos and data exploration
 
 ## What is Video Resnet?
 
