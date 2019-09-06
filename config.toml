@@ -11,7 +11,7 @@ theme = "hyde-hyde"
     title = "Infinite Study"
     description = "My deep dive into deep learning and AI"
     authorimage = "/img/logo.png"
-    dateformat = "Jan 2, 2006 [Monday]"
+    dateformat = "Monday, Jan 2, 2006"
 
     # sidebar, copyright & licence
     copyright = "@aslamplr"
