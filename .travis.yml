@@ -1,0 +1,21 @@
+git:
+  submodules: false
+before_install:
+  - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
+  - git submodule update --init --recursive
+install:
+  - curl -LO https://github.com/gohugoio/hugo/releases/download/v0.55.4/hugo_0.55.4_Linux-64bit.deb
+  - sudo dpkg -i hugo_0.55.4_Linux-64bit.deb
+script:
+  - hugo
+deploy:
+  - provider: pages
+    local_dir: public/
+    repo: aslamplr/aslamplr.github.io
+    target_branch: master
+    skip_cleanup: true
+    github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+    keep_history: true
+    on:
+      branch: master
+
