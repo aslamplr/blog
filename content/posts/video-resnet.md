@@ -2,7 +2,7 @@
 title: Classify video using deep learning!
 date: 2019-09-05T11:13:14.000Z
 draft: false
-thumbnail: /img/uploads/conor-luddy-iga3md8wp6g-unsplash.jpg
+thumbnail: ''
 ---
 ## What is Video Resnet?
 
