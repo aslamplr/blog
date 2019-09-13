@@ -14,9 +14,7 @@ There are several architectures and research papers interested in video classifi
 
 Availability of a large scale dataset for video classification is also one reason the earlier research were focused on image classification techniques to achieve results in video classification. Most of the research utilize available small scale action recognition datasets. Earlier techniques explored the possibility of using 2D CNNs trained on ImageNet.
 
-![](/img/uploads/conor-luddy-iga3md8wp6g-unsplash.jpg)
-
-## <!--more-->
+<!--more-->
 
 Early works ---
 
@@ -60,10 +58,6 @@ An 18 layer deep R(2+1)D (VideoResnet) network as in https://arxiv.org/abs/1711.
 
 > **Disclaimer**: In most of this post I am using the paper author's own words to describe what is what. This is done because, I felt my words won't be just to describe what is what. And my purpose of writing this post is to put it all together for myself and others in a way that is easier for me to understand. And probably some of you might find it interesting as well. 
 
-_Abstract:_
-
-> In this paper we discuss several forms of spatiotemporal convolutions for video analysis and study their effects on action recognition. Our motivation stems from the observation that 2D CNNs applied to individual frames of the video have remained solid performers in action recognition. In this work we empirically demonstrate the accuracy advantages of 3D CNNs over 2D CNNs within the framework of residual learning. Furthermore, we show that factorizing the 3D convolutional filters into separate spatial and temporal components yields significantly gains in accuracy. Our empirical study leads to the design of a new spatiotemporal convolutional block “R(2+1)D” which produces CNNs that achieve results comparable or superior to the state-of-theart on Sports-1M, Kinetics, UCF101, and HMDB51.
-
 There are 5 residual network architectures being discused in this paper.
 
 1. **`R2D`** (2D Resnet)
@@ -75,8 +69,7 @@ There are 5 residual network architectures being discused in this paper.
 _The architecture:_
 
 ![r2plus1d.png](/img/video-resnet/r2plus1d.png)
-
-R(2+1)D are ResNets with (2+1)D convolutions. For interpretablility, residual connections are omitted in the above image.
+R(2+1)D are ResNets with (2+1)D convolutions. The residual connections are not shown in the image.
 
 ## (2+1)D vs 3D convolution
 
@@ -90,14 +83,18 @@ Consider a video sample with `t` frames (the temporal extend) and `d x d` width 
 Following figure shows the training and testing errors on Kinetics for R3D and R(2+1)D, using 18-layers (left) and 34-layers (right).
 
 ![train_test_r2plus1d_vs_r3d.png](/img/video-resnet/train_test_r2plus1d_vs_r3d.png)
-**Training and testing errors for R(2+1)D and R3D.**
-Results are reported for ResNets of 18 layers (left) and 34 layers (right). It can be observed that the training error (thin lines) is smaller for R(2+1)D compared to R3D, particularly for the network with larger depth (right). This suggests that the the spatialtemporal decomposition implemented by R(2+1)D eases the optimization, especially as depth is increased.
+**Train and test error - R(2+1)D vs. R3D**
+ResNets with 18 layers (left) and 34 layers (right). The observation is that the training error is smaller for the R(2+1)D network compared to the R3D network. This is particularly true in case of network with more depth (34 layer network on the right). 
 
-R(2+1)D gives lower testing error than R3D but the interesting message in this plot is that R(2+1)D yields also lower training error. The reduction in training error for R(2+1)D compared to R3D is particularly accentuated for the architecture having 34 layers. This suggests that the spatiotemporal decomposition of R(2+1)D renders the optimization easier compared to R3D, especially as depth is increased.
+Based on this observation the paper suggests that _"**the spatial-temporal decomposition implemented by the R(2+1)D eases the optimization, especially as the depth is increased**"._ 
 
 - - -
 
-### Code
+## Code
+
+Original source: https://pytorch.org/docs/stable/_modules/torchvision/models/video/resnet.html (slightly modified in this post to reduce unwanted complexity).
+
+> The code part is being worked on, I will update the blog post soon with the code part explained. For the time being following code is working and is tested. 
 
 ```python
 import torch
