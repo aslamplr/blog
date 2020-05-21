@@ -1,5 +1,5 @@
 +++
-title = "How I setup this blog site?"
+title = "How to setup a blog site using hugo?"
 date = 2019-09-05T09:15:08.000Z
 draft = false
 category = "blog"
