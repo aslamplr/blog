@@ -1,8 +1,9 @@
----
-title: "How I setup this blog site?"
-date: 2019-09-05T14:45:08+05:30
-draft: false
----
++++
+title = "How I setup this blog site?"
+date = 2019-09-05T14:45:08+05:30
+draft = false
+category = "blog"
++++
 
 This is supposed to be my first blog post. The truth is, this is my second blog post. I was wondering what I will write down in my first blog post other than about the "Video Resnet" which I already had in mind before starting to setup this site.
 

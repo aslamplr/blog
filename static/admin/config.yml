@@ -6,8 +6,11 @@ media_folder: "static/img/uploads"
 public_folder: "/img/uploads"
 collections:
   - name: "posts"
+    filter: { field: "category", value: "blog" }
+    format: "toml-frontmatter"
+    frontmatter_delimiter: [ "+++", "+++" ]
     label: "Post"
-    folder: "content/posts"
+    folder: "content"
     create: true
     slug: "{{slug}}"
     fields:
@@ -15,4 +18,5 @@ collections:
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Draft", name: "draft", widget: "boolean", default: true }
       - { label: "Featured Image", name: "thumbnail", widget: "image", required: false }
+      - { label: "Category", name: "category", widget: "string", default: "blog" }
       - { label: "Body", name: "body", widget: "markdown" }

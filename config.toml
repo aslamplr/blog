@@ -1,40 +1,34 @@
-## Basic Configuration
-baseURL = "https://aslamplr.github.io/"
-languageCode = "en-us"
+# The URL the site will be built for
+base_url = "https://aslamplr.github.io"
+title = "Boom: Stacktrace!"
+description = "Missing description!"
 
-title = "Infinite Study"
-theme = "hyde-hyde"
+theme = "ergo"
 
-## Site Settings
-[params]
-    author = "Aslam Ahammed"
-    title = "Infinite Study"
-    description = "My (deep) dive into Deep learning, Re-inforcement learning, and AI, and other stuffs!"
-    authorimage = "/img/logo.png"
-    dateformat = "Monday, Jan 2, 2006"
+generate_rss = true
+rss_limit = 20
 
-    # sidebar, copyright & licence
-    copyright = "@aslamplr"
-    licence = "CC BY-SA 4.0"
-    licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
-    showBuiltWith = true
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
 
-    highlightjs = true
-    hughlightjsstyle = "github"
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
 
-## Social Accounts
-[params.social]
-    github = "aslamplr"
-    twitter = "aslamplr"
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
 
-## Main Menu
-[[menu.main]]
-    name = "Posts"
-    weight = 100
-    identifier = "posts"
-    url = "/posts/"
-[[menu.main]]
-    name = "About Me"
-    identifier = "about"
-    weight = 300
-    url = "/about/"
+[extra]
+# Put all your custom variables here
+
+profile = 'profile.svg'
+description = "Simple blog theme focused on writing, inspired by svbtle"
+
+# github
+github = "aslamplr" # case does not matter
+# twitter
+twitter = "aslamplr"
+# email
+email = "aslamplr+code-blog@gmail.com"
+
+

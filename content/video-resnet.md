@@ -1,9 +1,10 @@
----
-title: Classify video using deep learning!
-date: 2019-09-05T11:13:14.000Z
-draft: false
-thumbnail: ''
----
++++
+title = "Classify video using deep learning!"
+date = 2019-09-05T11:13:14.000Z
+draft = false
+thumbnail = ""
+category = "blog"
++++
 ## What is Video Resnet?
 
 Video Resnet is a 3D CNN architecture uses residual learning (skip connections). This network perform 3D convolutions over the spatiotemporal video volume. 
