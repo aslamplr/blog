@@ -1,9 +1,10 @@
 +++
 title = "How I setup this blog site?"
-date = 2019-09-05T14:45:08+05:30
+date = 2019-09-05T09:15:08.000Z
 draft = false
 category = "blog"
 +++
+> **UPDATE** (on 22-May-2020): This blog was written while this site was initially setup using **[Hugo](http://gohugo.io/)**. This site was recently migrated to **[Zola](http://getzola.org/)**. The title of this post is also changed from ***"How I setup this blog site?"*** to ***"How to setup a blog site using hugo?"***
 
 This is supposed to be my first blog post. The truth is, this is my second blog post. I was wondering what I will write down in my first blog post other than about the "Video Resnet" which I already had in mind before starting to setup this site.
 
@@ -25,11 +26,11 @@ Now that I have decided on static site generators. The next question is what too
 
 I have the following things to be satisfied for any setup that I choose.
 
-- [ ] Able to write my blog posts in `markdown` format.
-- [ ] Not be bothered about the underlying technology and engine (React, Ruby, PHP etc.).
-- [ ] Simple deployment steps.
-- [ ] Theming ability. And availability of free to use themes.
-- [ ] Customizability of themes without a lot of complexity.
+* Able to write my blog posts in `markdown` format.
+* Not be bothered about the underlying technology and engine (React, Ruby, PHP etc.).
+* Simple deployment steps.
+* Theming ability. And availability of free to use themes.
+* Customizability of themes without a lot of complexity.
 
 When the inception of the blog site occurred in my mind. I had the github.io url of my blog site in my mind (https://aslamplr.github.io). The next thing I was thinking was `Jekyll`. I am not comfortable with Ruby on rails. But I am good with ReactJS. Ideal choice for those who love react is `Gatsby`. I wasn't sure which one I should choose. I was predetermined in some abstract sort of way, that I should be using `Jekyll` mostly because of the internet. Mostly everyone who uses static blogging sites claim to use `Jekyll` and I wasn't sure what is the way forward. 
 
@@ -37,13 +38,11 @@ I searched for "Jekyll vs ..." google came to my help. Auto complete my query "J
 
 All CHECK!
 
-- [x] Able to write my blog posts in `markdown` format.
-- [x] Not be bothered about the underlying technology and engine (React, Ruby, PHP etc.). 
-    `hugo` is written in `golang` but you do not required to know anything about `golang` or setup the toolchain yourself.
-- [x] Simple deployment steps.
-- [x] Theming ability. And availability of free to use themes.
-    There are in fact a lot of themes available
-- [x] Customizability of themes without a lot of complexity.
+* Able to write my blog posts in `markdown` format.
+* Not be bothered about the underlying technology and engine (React, Ruby, PHP etc.).    `hugo` is written in `golang` but you do not required to know anything about `golang` or setup the toolchain yourself.
+* Simple deployment steps.
+* Theming ability. And availability of free to use themes.   There are in fact a lot of themes available
+* Customizability of themes without a lot of complexity.
 
 Now what?
 
@@ -80,16 +79,16 @@ Anyway I am going to write about deep learning, coding, web and stuff. Or at lea
 
 I shortlisted few of the themes which I like.
 
-- Academic
-- Paperback
-- Book
-- Hugo Dusk
-- Hyde (The famous fast.ai website is using this one!)
-- Minimo
-- Coder
-- Hugo Classic
-- Hyde Hyde (The one that I choose)
-- Mediumish (Wanted this one but felt like bloated)
+* Academic
+* Paperback
+* Book
+* Hugo Dusk
+* Hyde (The famous fast.ai website is using this one!)
+* Minimo
+* Coder
+* Hugo Classic
+* Hyde Hyde (The one that I choose)
+* Mediumish (Wanted this one but felt like bloated)
 
 Settled for "Hyde Hyde" (https://themes.gohugo.io/hyde-hyde/).
 
@@ -109,7 +108,6 @@ cd infinite-study
 
 # Initialize a git repository
 git init
-
 ```
 
 **Now what?** Let's add our `hide-hide` theme from the forked repo.
@@ -122,7 +120,6 @@ Head back to the terminal window.
 git submodule add -b master git@github.com:aslamplr/hyde-hyde.git themes/hyde-hyde
 
 # This should clone the theme repo onto `themes/hyde-hyde` directory in your blog project tree.
-
 ```
 
 Now, let's add the theme to `config.toml` file. The file should be available in the root of your blog project.
@@ -170,7 +167,6 @@ theme = "hyde-hyde"
     identifier = "about"
     weight = 300
     url = "/about/"
-
 ```
 
 **Let's create the first post**
@@ -187,7 +183,6 @@ title: "My First Post"
 date: 2019-09-05T14:45:08+05:30
 draft: true
 ---
-
 ```
 
 I have added some content to test everything. And run the hugo server.
@@ -198,16 +193,13 @@ hugo server -D
 
 Now head to http://localhost:1313/ if everything is in order. You should see a beautiful website with the Hyde Hyde theme.
 
-
 **Well and good, now what? don't you want to deploy your site.**
 
 There are a whole bunch of options to deploy your hugo site. Since I am going to deploy on Github as github pages. I head over to "Hosting on GitHub" (https://gohugo.io/hosting-and-deployment/hosting-on-github/) guide on hugo website.
 
 From there it's real easy just follow along and you should be ready to deploy your content. Before running the `./deploy.sh` make sure that you have made the `draft: false` in your post if you want to get it published.
 
-My hyde-hyde theme fork - https://github.com/aslamplr/hyde-hyde
-My blog repo - https://github.com/aslamplr/blog
-My GitHub pages repo - https://github.com/aslamplr/aslamplr.github.io
+My hyde-hyde theme fork - https://github.com/aslamplr/hyde-hyde My blog repo - https://github.com/aslamplr/blog My GitHub pages repo - https://github.com/aslamplr/aslamplr.github.io
 
 I don't have a discuss plugin or comments feature as of now. I will be working on enabling those soon. Till then you don't have a better way of contacting me other than emails.
 
@@ -216,5 +208,3 @@ My email - aslamplr(at)gmail(dot)com (don't spam bomb me please!)
 Thank you for reading my post! I appreciate you spend your time reading my post. Please email me in case you followed my post and are stuck with your setup or anything related to this. I am happy to help you out or point you to the right direction.
 
 Thank you!
-
-
