@@ -1,7 +1,7 @@
 # The URL the site will be built for
 base_url = "https://aslamplr.github.io"
 title = "Boom: Stacktrace!"
-description = "Missing description!"
+description = "Intentionally missing description."
 
 theme = "ergo"
 
@@ -22,7 +22,6 @@ build_search_index = false
 # Put all your custom variables here
 
 profile = "stacktrace.png"
-description = "Simple blog theme focused on writing, inspired by svbtle"
 
 # github
 github = "aslamplr" # case does not matter
@@ -30,5 +29,4 @@ github = "aslamplr" # case does not matter
 twitter = "aslamplr"
 # email
 email = "aslamplr+code-blog@gmail.com"
-
 
