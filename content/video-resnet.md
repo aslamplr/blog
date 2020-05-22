@@ -15,7 +15,7 @@ There are several architectures and research papers interested in video classifi
 
 Availability of a large scale dataset for video classification is also one reason the earlier research were focused on image classification techniques to achieve results in video classification. Most of the research utilize available small scale action recognition datasets. Earlier techniques explored the possibility of using 2D CNNs trained on ImageNet.
 
-<!--more-->
+<!-- more -->
 
 Early works ---
 
