@@ -10,7 +10,7 @@ This is supposed to be my first blog post. The truth is, this is my second blog 
 
 > **This post is for you,** If you like this blog site and want to setup one for you just like this one. You are looking for a static site generator. And if you are willing to write your blog posts in `markdown` format (other format are supported by this setup like `html` and so but I won't discuss all that in this post). And bit of ~~expertise~~ familiarity with `git` and `github`. And willing to get your hands dirty in the command line. And if you love terminals. I ❤️ terminal windows!
 
-<!--more-->
+<!-- more -->
 
 ## Static site generators?
 
