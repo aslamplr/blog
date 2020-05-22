@@ -21,7 +21,7 @@ build_search_index = false
 [extra]
 # Put all your custom variables here
 
-profile = 'profile.svg'
+profile = "stacktrace.png"
 description = "Simple blog theme focused on writing, inspired by svbtle"
 
 # github
