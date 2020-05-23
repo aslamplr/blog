@@ -6,6 +6,17 @@ category = "blog"
 +++
 `// TODO:`
 
+Error handling in Rust
+
+Why no exceptions (try catch exception)
+
+>Quote of the Week
+>
+>The whole motivation behind exceptions is to allow one to write ones business logic, concentrate on what one likes to think ones program will do, without having lots of fiddly error checking and handling code obscuring that logic. Error situations are therefore swept under the carpet with "try" and kept out of sight with "catch".
+>
+>However in my world view failure is not exceptional, it is a common happening, it's too important to be hidden away. Therefor failure handling should be in ones face in the code you write. Certainly in the face of those that read it.
+– ZiCog on rust-users
+
 
 ---
 **Refrences**:
