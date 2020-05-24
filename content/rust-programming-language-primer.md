@@ -6,7 +6,13 @@ category = "blog"
 +++
 `// TODO:`
 
-Error handling in Rust
+## Memory Safety
+
+Chromium issues reddit post
+
+[The Chromium Project finds that 70 % of their issues are memory safety issues](https://www.reddit.com/r/rust/comments/gpdorw/the_chromium_project_finds_that_around_70_of_our/?utm_source=share&utm_medium=ios_app&utm_name=iossmf)
+
+## Error handling in Rust
 
 Why no exceptions (try catch exception)
 
