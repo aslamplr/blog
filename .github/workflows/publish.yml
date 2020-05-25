@@ -11,4 +11,5 @@ jobs:
         DEPLOYMENT_REPOSITORY: aslamplr/aslamplr.github.io
         PAGES_BRANCH: master 
         TOKEN: ${{ secrets.TOKEN }}
-
+        DRAFTS_OUTPUT_DIR: public/drafts
+        DRAFTS_BASE_URL: https://aslamplr.github.io/drafts
