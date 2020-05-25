@@ -4,7 +4,7 @@ date = 2020-05-24T17:04:55.770Z
 draft = true
 category = "blog"
 +++
-**Flutter** is a UI rendering framework!
+**Flutter** is a UI rendering engine and framework works for building simple and fast mobile applications both for Android and iOS. A hybrid approach like ionic or React Native but this is far better since it compiles everything down to native code which renders on the canvas infrastructure provided by the platform.
 
 **Dart** is programming language for working with Flutter. Dart is more UI centric programming language (is what the official site claims it to be with hot reloading capabilities and all). 
 
