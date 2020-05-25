@@ -18,5 +18,9 @@ I have never written a mobile application (except for some hobby projects while 
 
 And talking to my friend who had recently been aquinted with Flutter + Dart was talking really good things about it. And made me think seriously about aquiring that skillset. But I am not going to invest much time if this not coming natural to me and if the toolchain is tedious to setup which I hate these days. That is another reason I love Rust compared to my attempt learning Go. When I was trying to learn Go the toolchain and the setup and the way how it all was defined felt quite not natural to me. Rust came in really handy and natural. Especially because I come from the ease of having an easy setup like getting used to the `npm`.
 
-Ok enough of history. Let's see where to get started with Flutter. Let me head to https://flutter.dev and see what is the way forward to get this setup.
+Enough of history. Let's see where to get started with Flutter. Let me head to https://flutter.dev and see what is the way forward to get this setup.
+
+I am planning to use my MacBook Air for the setup. And I am planning to use `vscode` as my IDE for the development.
+
+I don’t want to bother myself to download Xcode or Android Studio at this point in time.
 
