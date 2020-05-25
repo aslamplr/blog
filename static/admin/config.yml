@@ -2,7 +2,7 @@ backend:
   name: github
   repo: aslamplr/blog
   branch: master
-media_folder: "static/img/uploads"
+media_folder: "content/img/uploads"
 public_folder: "/img/uploads"
 collections:
   - label: "Posts"
