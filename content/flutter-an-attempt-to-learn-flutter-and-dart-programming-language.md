@@ -24,3 +24,11 @@ I am planning to use my MacBook Air for the setup. And I am planning to use `vsc
 
 I don’t want to bother myself to download Xcode or Android Studio at this point in time.
 
+Update: Quick change of mind, I decide to download Xcode for the sake of it. It's downloading 8.1 GB (☹️ Not good in my opinion!)
+
+Meanwhile I headed straight to the https://flutter.dev and downloading the `flutter_macos_1.17.1-stable.zip` which is around 1.08 GB (☹️ Not impressed again)
+
+So its all getting downloaded and I am heading to vscode to checkout the flutter extension. 
+
+
+
