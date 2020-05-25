@@ -8,7 +8,7 @@ category = "blog"
 
 **Dart** is programming language for working with Flutter. Dart is more UI centric programming language (is what the official site claims it to be with hot reloading capabilities and all). 
 
-### Why I am interested in Flutter & Dart?
+### Why I am interested in Flutter & Dart lately?
 
 I have Javascript/Typescript with React in my tool belt for any web frontend development need. I have python for scripting needs, and Rust/NodeJS/Python/C# for Web API Service development etc. Rust is my favorite now a days due to various reasons. I have never seriously considered filling the empty space for mobile application development. 
 
