@@ -28,9 +28,16 @@ Update: Quick change of mind, I decide to download Xcode for the sake of it. It'
 
 {{ resize_image(path="img/uploads/screenshot-2020-05-25-at-10.50.13-pm.png", width=600, height=400 op="fit_width") }}
 
+{{ resize_image(path="img/uploads/screenshot-2020-05-25-at-10.50.39-pm.png", width=600, height=400 op="fit_width") }}
+
 Meanwhile I headed straight to the https://flutter.dev and downloading the `flutter_macos_1.17.1-stable.zip` which is around 1.08 GB (☹️ Not impressed again)
+
+{{ resize_image(path="img/uploads/screenshot-2020-05-25-at-10.47.07-pm.png", width=600, height=400 op="fit_width") }}
 
 So its all getting downloaded and I am heading to vscode to checkout the flutter extension. 
 
+{{ resize_image(path="img/uploads/screenshot-2020-05-25-at-10.49.29-pm.png", width=600, height=400 op="fit_width") }}
+
+---
 
 
