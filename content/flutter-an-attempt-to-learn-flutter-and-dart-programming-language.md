@@ -28,7 +28,7 @@ Update: Quick change of mind, I decide to download Xcode for the sake of it. It'
 
 ![Xcode in App Store screenshot](/img/uploads/screenshot-2020-05-25-at-10.50.13-pm.png)
 
-{{ resize_image("/img/uploads/screenshot-2020-05-25-at-10.50.13-pm.png", height=200, width=300, op="fit_width") }}
+{{ resize_image("/img/uploads/screenshot-2020-05-25-at-10.50.13-pm.png", width=300, height=200, op="fit_width") }}
 
 
 Meanwhile I headed straight to the https://flutter.dev and downloading the `flutter_macos_1.17.1-stable.zip` which is around 1.08 GB (☹️ Not impressed again)
