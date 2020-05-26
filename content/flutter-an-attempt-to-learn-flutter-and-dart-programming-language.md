@@ -52,4 +52,22 @@ Time to run `flutter doctor` see what dependencies are missing!
 
 {{ resize_image(path="img/uploads/screenshot-2020-05-26-at-12.46.15-pm.png", width=600, height=500, op="fit_width") }}
 
+To be honest I didn't like a bit about this setup. All contrived and complicated seems not straight forward. Lot of dependencies like having to install both `Xcode` and `Android Studio` and in addition to that `Cocoapods` which again requires ruby gem! ☹️ Huge disappointment so far!
+
+Let me see!
+
+After setting up the following as suggested by the `flutter doctor` output:
+
+- Xcode (xcode-select switch, xcodebuild install)
+- vscode (Install flutter extension)
+
+_Note: vscode was complaining that it couldn't find Flutter SDK, so moved flutter SDK to home and add path extension to the `~/.profile`_
+
+
+Run `flutter-doctor` after all that from `vscode`. Still complaining about the missing Android Toolchain and Android Studio. 
+
+{{ resize_image(path="img/uploads/screenshot-2020-05-26-at-12.46.15-pm.png", width=600, height=500, op="fit_width") }}
+
+{{ resize_image(path="img/uploads/screenshot-2020-05-26-at-1.27.49-pm.png", width=600, height=500, op="fit_width") }}
+
 ---
