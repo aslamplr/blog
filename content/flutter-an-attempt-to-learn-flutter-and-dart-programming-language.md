@@ -137,5 +137,19 @@ Bam! No!
 
 These seems simple enough complaints, lets resolve these!
 
+`flutter doctor --android-licenses` Oh! I am going crazy again `Accept (y/N):` or die.
+
+{{ resize_image(path="img/uploads/screenshot-2020-05-26-at-5.06.05-pm.png", width=600, height=500, op="fit_width") }}
+
+And install the Flutter plugin (+ Dart plugin) for Android Studio
+
+Run `flutter doctor` again, see where we are –
+
+{{ resize_image(path="img/uploads/screenshot-2020-05-26-at-6.20.12-pm.png", width=600, height=500, op="fit_width") }}
+
+Seems like the doctor is happy for the time being!
 
 ---
+
+### Let's write some customery "Hello, World!"
+
