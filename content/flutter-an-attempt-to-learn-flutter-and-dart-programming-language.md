@@ -66,7 +66,7 @@ _Note: vscode was complaining that it couldn't find Flutter SDK, so moved flutte
 
 Run `flutter-doctor` after all that from `vscode`. Still complaining about the missing Android Toolchain and Android Studio. 
 
-{{ resize_image(path="img/uploads/screenshot-2020-05-26-at-12.46.15-pm.png", width=600, height=500, op="fit_width") }}
+{{ resize_image(path="img/uploads/screenshot-2020-05-26-at-1.20.36-pm.png", width=600, height=500, op="fit_width") }}
 
 {{ resize_image(path="img/uploads/screenshot-2020-05-26-at-1.27.49-pm.png", width=600, height=500, op="fit_width") }}
 
@@ -102,6 +102,40 @@ Let's see what's the size of the resource. `curl -I https://dl.google.com/androi
 
 Oh! it's another 1+ GB. ☹️
 
+{{ resize_image(path="img/uploads/screenshot-2020-05-26-at-4.43.21-pm.png", width=600, height=500, op="fit_width") }}
+
+Bam! It asked for admin privileges!
+
+{{ resize_image(path="img/uploads/screenshot-2020-05-26-at-4.45.44-pm.png", width=600, height=500, op="fit_width") }}
+
+Huh! 
+
+{{ resize_image(path="img/uploads/screenshot-2020-05-26-at-4.51.26-pm.png", width=600, height=500, op="fit_width") }}
+
+The installation finished at last!
+
+{{ resize_image(path="img/uploads/screenshot-2020-05-26-at-4.51.41-pm.png", width=600, height=500, op="fit_width") }}
+
+The Android Studio welcome screen! 
+
+Run `flutter doctor` again and see if all good and green!
+{{ resize_image(path="img/uploads/screenshot-2020-05-26-at-4.53.25-pm.png", width=600, height=500, op="fit_width") }}
+
+Bam! No!
+
+```
+...
+[!] Android toolchain - develop for Android devices (Android SDK version 29.0.3)
+    ✗ Android licenses not accepted.  To resolve this, run: flutter doctor
+      --android-licenses
+...
+[!] Android Studio (version 3.6)
+    ✗ Flutter plugin not installed; this adds Flutter specific functionality.
+    ✗ Dart plugin not installed; this adds Dart specific functionality.
+...
+```
+
+These seems simple enough complaints, lets resolve these!
 
 
 ---
