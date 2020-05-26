@@ -30,6 +30,8 @@ Update: Quick change of mind, I decide to download Xcode for the sake of it. It'
 
 {{ resize_image(path="img/uploads/screenshot-2020-05-25-at-10.50.39-pm.png", width=600, height=400 op="fit_width") }}
 
+_`Note: Xcode is necessary to do iOS development using Flutter!`_
+
 Meanwhile I headed straight to the https://flutter.dev and downloading the `flutter_macos_1.17.1-stable.zip` which is around 1.08 GB (☹️ Not impressed again)
 
 {{ resize_image(path="img/uploads/screenshot-2020-05-25-at-10.47.07-pm.png", width=600, height=400 op="fit_width") }}
