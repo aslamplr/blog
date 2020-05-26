@@ -48,4 +48,8 @@ After the download, unzipped the `flutter_macos_1.17.1-stable.zip` to the `~/Dow
 
 {{ resize_image(path="img/uploads/screenshot-2020-05-26-at-12.38.25-pm.png", width=600, height=500, op="fit_width") }}
 
+Time to run `flutter doctor` see what dependencies are missing!
+
+{{ resize_image(path="img/uploads/screenshot-2020-05-26-at-12.46.15-pm.png", width=600, height=500, op="fit_width") }}
+
 ---
