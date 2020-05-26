@@ -86,4 +86,22 @@ I forgot AndroidSDK requires `JDK` - The Java Development Kit. I decided to give
 
 Let me come back to you later! Flutter!
 
+I have decided to download Android Studio rather than setting up JDK. Since I have uninstalled JDK sometimes back, I no longer remember when, as it no longer comes with commercial usage license for public. 
+
+Downloading the Android Studio its around 805 MB download for Mac. Which is a lighter download considering the fact that Xcode is 8.1 GB. It comes everything bundled Android SDK + JDK etc (This what I thought initially). 
+
+Let's open it! It requires to download the Android SDK again and the virtual device which is another 1 GB+. I am OK with it atleast because, you don't need to set it up manually. The installer takes care of it. Which is a huge relief at this point in time.
+
+{{ resize_image(path="img/uploads/screenshot-2020-05-26-at-4.32.21-pm.png", width=600, height=500, op="fit_width") }}
+
+Its stuck downloading "https://dl.google.com/android/repository/sys-img/google_apis/x86-29_r10.zip" 
+
+Let's see what's the size of the resource. `curl -I https://dl.google.com/android/repository/sys-img/google_apis/x86-29_r10.zip`
+
+{{ resize_image(path="img/uploads/screenshot-2020-05-26-at-4.37.23-pm.png", width=600, height=500, op="fit_width") }}
+
+Oh! it's another 1+ GB. ☹️
+
+
+
 ---
