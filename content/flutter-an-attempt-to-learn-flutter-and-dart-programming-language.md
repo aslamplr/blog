@@ -153,3 +153,53 @@ Seems like the doctor is happy for the time being!
 
 ### Let's write some customery "Hello, World!"
 
+Create a flutter project `flutter create hello_flutter`. 
+
+{{ resize_image(path="img/uploads/flutter_create_hello_flutter.png", width=600, height=500, op="fit_width") }}
+
+{{ resize_image(path="img/uploads/flutter_project_created.png", width=600, height=500, op="fit_width") }}
+
+Change directory to the created project directory `cd hello_flutter`.
+
+Let's run the automatically created flutter project `flutter run`. 
+
+```
+No supported devices connected.
+```
+
+Yes! you need to connect a device in order to install the application and run it. It can be a virtual device or an actual device connected.
+
+For running iOS you need to run `Simulator` and for Android `emulator`.
+
+This is when I realised none of the Android SDK command line tools are in my $PATH. This is how my $PATH extensions in `~/.profile` looks like –
+
+{{ resize_image(path="img/uploads/flutter_path_after_flutter.png", width=600, height=500, op="fit_width") }}
+
+- Flutter commands are already in $PATH.
+- Android SDK CLI tools.
+- Add JDK bundled with Android Studio into JAVA_HOME (it is required by the Android SDK CLI tools).
+- Android Emulator as well.
+
+Now let's check the CLI tool `avdmanager` to see all created images (By default it comes with a Nexus image).
+
+{{ resize_image(path="img/uploads/flutter_avdmanager_list_devices.png", width=600, height=500, op="fit_width") }}
+
+Let's see if this avd is getting picked up by emulator.
+
+{{ resize_image(path="img/uploads/flutter_emulator_list_avds.png", width=600, height=500, op="fit_width") }}
+
+Start the Android emulator for the Nexus device.
+
+{{ resize_image(path="img/uploads/flutter_emulator_start_avd.png", width=600, height=500, op="fit_width") }}
+
+Wow!
+
+{{ resize_image(path="img/uploads/flutter_emulator_screen1.png", width=200, height=600, op="fit_width") }}
+
+{{ resize_image(path="img/uploads/flutter_emulator_screen2.png", width=200, height=600, op="fit_width") }}
+
+{{ resize_image(path="img/uploads/flutter_emulator_screen3.png", width=200, height=600, op="fit_width") }}
+
+
+
+---
