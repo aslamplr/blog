@@ -26,15 +26,15 @@ I don’t want to bother myself to download Xcode or Android Studio at this poin
 
 Update: Quick change of mind, I decide to download Xcode for the sake of it. It's downloading 8.1 GB (☹️ Not good in my opinion!)
 
-{{ resize_image(path="img/uploads/screenshot-2020-05-25-at-10.50.13-pm.png", width=600, height=400 op="fit_width") }}
+{{ resize_image(path="img/uploads/screenshot-2020-05-25-at-10.50.13-pm.png", width=600, height=400, op="fit_width") }}
 
-{{ resize_image(path="img/uploads/screenshot-2020-05-25-at-10.50.39-pm.png", width=600, height=400 op="fit_width") }}
+{{ resize_image(path="img/uploads/screenshot-2020-05-25-at-10.50.39-pm.png", width=600, height=400, op="fit_width") }}
 
 _`Note: Xcode is necessary to do iOS development using Flutter!`_
 
 Meanwhile I headed straight to the https://flutter.dev and downloading the `flutter_macos_1.17.1-stable.zip` which is around 1.08 GB (☹️ Not impressed again)
 
-{{ resize_image(path="img/uploads/screenshot-2020-05-25-at-10.47.07-pm.png", width=600, height=400 op="fit_width") }}
+{{ resize_image(path="img/uploads/screenshot-2020-05-25-at-10.47.07-pm.png", width=600, height=400, op="fit_width") }}
 
 So its all getting downloaded and I am heading to vscode to checkout the flutter extension. 
 
@@ -42,4 +42,10 @@ So its all getting downloaded and I am heading to vscode to checkout the flutter
 
 ---
 
+### Setting up the Flutter SDK
 
+After the download, unzipped the `flutter_macos_1.17.1-stable.zip` to the `~/Downloads/` itself for now! Yet to graduate to my `$HOME`!
+
+{{ resize_image(path="img/uploads/screenshot-2020-05-26-at-12.38.25-pm.png", width=600, height=500, op="fit_width") }}
+
+---
