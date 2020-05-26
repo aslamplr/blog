@@ -70,4 +70,20 @@ Run `flutter-doctor` after all that from `vscode`. Still complaining about the m
 
 {{ resize_image(path="img/uploads/screenshot-2020-05-26-at-1.27.49-pm.png", width=600, height=500, op="fit_width") }}
 
+**Setting up Android SDK**
+
+I cannot ignore installing Android SDK (remember the market share of Android in India is huge, so any app you are developing to appeal entire population should have an Android app in the play store is a must). But, I do not want to install Android Studio. Let me see what options do I have? After a google search and couple of clicks I ended up in this page where there are several options including one with "Command line tools only" bliss! [https://developer.android.com/studio#downloads](https://developer.android.com/studio#downloads)
+
+{{ resize_image(path="img/uploads/screenshot-2020-05-26-at-1.30.45-pm.png", width=600, height=500, op="fit_width") }}
+
+Let's download it, what a bliss it's only 81.7 MB!
+
+Extracted the archive after download, moved everything to my $HOME and added the bin directory to my $PATH. And run `sdkmanager` boom!
+
+{{ resize_image(path="img/uploads/screenshot-2020-05-26-at-1.39.36-pm.png", width=600, height=500, op="fit_width") }}
+
+I forgot AndroidSDK requires `JDK` - The Java Development Kit. I decided to give it a hold for now! It's been around 2 hours after I started to setup Flutter. Including all the downloads and installation etc.
+
+Let me come back to you later! Flutter!
+
 ---
