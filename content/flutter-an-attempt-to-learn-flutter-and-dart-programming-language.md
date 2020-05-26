@@ -200,6 +200,18 @@ Wow!
 
 {{ resize_image(path="img/uploads/flutter_emulator_screen3.png", width=200, height=600, op="fit_width") }}
 
+Let's run the flutter app once again `flutter run`.
 
+{{ resize_image(path="img/uploads/flutter_run.png", width=600, height=500, op="fit_width") }}
+
+{{ resize_image(path="img/uploads/flutter_run_finally.png", width=600, height=500, op="fit_width") }}
+
+The app is installed and running in the emulator device – 
+
+{{ resize_image(path="img/uploads/flutter_run_app_desktop.png", width=600, height=500, op="fit_width") }}
+
+> Its really slow on my MacBook Air. I think if I am considering to do this seriosly need an upgrade!
+
+Now that it's running for Android, let's check the project structure and see how everything is wired!
 
 ---
