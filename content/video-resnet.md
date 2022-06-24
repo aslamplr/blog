@@ -1,7 +1,7 @@
 +++
 title = "Classify video using deep learning!"
 date = 2019-09-05T11:13:14.000Z
-draft = false
+draft = true
 thumbnail = ""
 category = "blog"
 +++
